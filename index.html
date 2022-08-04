@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet"> 
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="header">
+        <h1>ROCK, PAPER, SCISSORS!</h1>
+    </div>
+    <div class="play-area">
+        <div class="play-box">
+            <div class="text" id="text">
+                <p>Select a move to start the game</p>
+            </div>
+            <div class="score">
+                <h1 id="player" class="player">0</h1>
+                <h1 class="divider"> : </h1>
+                <h1 id="cpu" class="cpu">0</h1>
+            </div>
+            <div class="labels">
+                <p class="player-label">Player</p>
+                <p class="cpu-label">CPU</p>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="button"  id="rock"><p>ROCK</p></div>
+        <div class="button" id="paper"><p>PAPER</p></div>
+        <div class="button" id="scissors"><p>SCISSORS</p></div>
+    </div>
+
+    <div class="reset" id="reset"><p>RESET</p></div>
+    <script src="app.js"></script>
+</body>
+</html>

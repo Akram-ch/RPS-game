@@ -98,9 +98,6 @@ body{
 }
 
 .reset{
-    position: absolute;
-    left: 45.75%;
-    margin-top: 20px;
     color: whitesmoke;
     border: 2px solid rgb(230, 86, 29);
     display: flex;
@@ -110,8 +107,22 @@ body{
     height: 50px;
 }
 
+.dummy{
+    background-color: white;
+    display: none;
+    width: 7rem;
+    height: 50px;
+}
+
 .reset:hover{
     cursor: pointer;
     background-color: rgb(230, 86, 29);
     color: black;
+}
+
+@media (max-width: 600px){
+    .play-box p{
+        font-size: 1rem;
+        text-align: center;
+    }
 }
